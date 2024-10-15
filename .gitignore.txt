@@ -1,0 +1,34 @@
+# Python байт-код
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+.env/
+
+# Конфигурационные файлы IDE
+.idea/
+.vscode/
+
+# Файлы сборки/пакетирования
+build/
+dist/
+*.egg-info/
+
+# Артефакты тестирования
+coverage.xml
+*.cover
+.hypothesis/
+
+# Конфигурационные файлы ОС
+.DS_Store
+Thumbs.db
