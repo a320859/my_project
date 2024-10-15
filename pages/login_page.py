@@ -9,7 +9,7 @@ class LoginPage(BasePage):
 
     def should_be_login_url(self):
         # реализуйте проверку на корректный url адрес
-        assert 'login' in self.browser.current_url(), 'Подстроки login нет в урле!'
+        assert 'login' in self.browser.current_url, 'Подстроки login нет в урле!'
 
     def should_be_login_form(self):
         # реализуйте проверку, что есть форма логина
